@@ -12,10 +12,12 @@ import { CssBaseline } from "@mui/material";/* reinicia los estilos y aplica la 
 import { SnackbarProvider } from "notistack";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <>
     <CssBaseline />  
     <SnackbarProvider>
       <App />
     </SnackbarProvider>
-  </React.StrictMode>
+  </>
+  // </React.StrictMode>
 );
